@@ -31,7 +31,7 @@ def get_clips_by_stride(stride, frames_list, sequence_size):
                 cnt = 0
     return clips
 
-def get_test_set(path):
+def get_test_set(path,video_no):
     """
     Returns
     -------
@@ -40,7 +40,7 @@ def get_test_set(path):
     """
     clips = []
     # loop over the training folders (Train000,Train001,..)
-    for f in sorted(listdir(path))[:1]:
+    for f in sorted(listdir(path))[video_no-1:video_no]:
         directory_path = join(path, f)
         print(f)
         if isdir(directory_path):
