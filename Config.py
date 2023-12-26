@@ -1,0 +1,9 @@
+DATASET_PATH = "/home/hashem/Desktop/GB/train/"
+SINGLE_TEST_PATH = "./datasets/avenue/testing/frames"
+RELOAD_DATASET = False
+RELOAD_TESTSET = True
+RELOAD_MODEL = False
+CACHE_PATH = "cache"
+MODEL_PATH = "./notebooks/lstmautoencoder/model.hdf5"
+BATCH_SIZE = 1
+EPOCHS = 1
