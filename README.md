@@ -27,6 +27,9 @@ For each approach, there should be a jupyter notebook, evaluation support (takin
     </tr>
 </table>
 
+## Setup Req
+- **Python 3.10.12**  
+
 ## Configurations
 Create a new Config.py by copying Config.py.example, which contains the following parameters.
 - **DATASET_PATH**: path to USCDped1/Train directory.
